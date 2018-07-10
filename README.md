@@ -30,7 +30,7 @@ Car Brand Detection, Python 3.6 ve OpenCV kullanılarak geliştirildi. Local ola
 `opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 880 -numNeg 880 -numStages 1 -w 20 -h 20`
 
 **Burada önceden oluşturuğumuz negatif, pozitif, bg dosyalarını kullanarak antreman yaptırılıyor.**
-* -featureType LBP -> Normal cascade'den daha hızlı.
+* -featureType LBP -> Normal cascade'den daha hızlı fakat daha az başarı oranına sahiptir.
 
 * -maxFalseAlarmRate [number] -> Varsayılan değeri 0.5'tir. Varsayılan olarak düşünürsek; antreman sırasında 1000 adet pozitif hatalı örnekten 5 tanesine izin verir.
 
